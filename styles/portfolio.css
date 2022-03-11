@@ -106,7 +106,7 @@ nav li {
 }
 
 nav ul {
-  padding: 20px;
+  padding: 30px;
   margin: 0;
 }
 nav a {
@@ -121,7 +121,9 @@ nav li.active a {
 nav.header {
   margin: 0 auto;
 }
-
+nav img {
+  margin: 10px;
+}
 @media (max-width: 960px) {
   .project-description {
     padding: 0‚;
