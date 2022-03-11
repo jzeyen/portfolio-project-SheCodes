@@ -99,6 +99,29 @@ p {
   margin: 40px;
 }
 
+nav li {
+  text-decoration: none;
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul {
+  padding: 20px;
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
+}
+
+nav.header {
+  margin: 0 auto;
+}
+
 @media (max-width: 960px) {
   .project-description {
     padding: 0‚;
